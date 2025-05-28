@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-курсы по веб-разработке для начинающих</title>
+    <meta name="description" content="Изучайте HTML, CSS и JavaScript через интерактивные мини-курсы, созданные специально для начинающих">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <h1 class="logo">Основы Веб-разработки</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Главная</a></li>
+                    <li><a href="html-course.html" class="nav-link">Курс HTML</a></li>
+                    <li><a href="css-course.html" class="nav-link">Курс CSS</a></li>
+                    <li><a href="js-course.html" class="nav-link">Курс JavaScript</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Изучайте веб-разработку с нуля</h1>
+                <p class="hero-subtitle">Освойте основы HTML, CSS и JavaScript через интерактивные мини-курсы, созданные специально для начинающих</p>
+                <div class="hero-buttons">
+                    <a href="html-course.html" class="btn btn-primary">Начать обучение</a>
+                    <a href="#courses" class="btn btn-secondary">Посмотреть курсы</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Наши мини-курсы</h2>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16,18 22,12 16,6"></polyline>
+                                <polyline points="8,6 2,12 8,18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="course-title">Основы HTML</h3>
+                        <p class="course-description">Изучите 5 основных тегов HTML, которые составляют основу любого веб-сайта. Создайте структуру своей первой веб-страницы.</p>
+                        <ul class="course-topics">
+                            <li>Теги структуры документа</li>
+                            <li>Элементы форматирования текста</li>
+                            <li>Ссылки и навигация</li>
+                            <li>Изображения и медиа</li>
+                            <li>Формы и поля ввода</li>
+                        </ul>
+                        <a href="html-course.html" class="btn btn-outline">Начать курс HTML</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="course-title">Стилизация CSS</h3>
+                        <p class="course-description">Освойте 5 основных свойств CSS для превращения простого HTML в красивые, адаптивные дизайны.</p>
+                        <ul class="course-topics">
+                            <li>Макетирование с Flexbox</li>
+                            <li>Цвета и типографика</li>
+                            <li>Отступы и позиционирование</li>
+                            <li>Адаптивный дизайн</li>
+                            <li>Визуальные эффекты</li>
+                        </ul>
+                        <a href="css-course.html" class="btn btn-outline">Начать курс CSS</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="course-title">Основы JavaScript</h3>
+                        <p class="course-description">Откройте для себя 5 основных функций JavaScript для добавления интерактивности и динамического поведения на ваши веб-сайты.</p>
+                        <ul class="course-topics">
+                            <li>Управление DOM</li>
+                            <li>Обработка событий</li>
+                            <li>Валидация данных</li>
+                            <li>Динамический контент</li>
+                            <li>Взаимодействие с пользователем</li>
+                        </ul>
+                        <a href="js-course.html" class="btn btn-outline">Начать курс JavaScript</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Почему стоит выбрать наши курсы?</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14,2 14,8 20,8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10,9 9,9 8,9"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Интерактивные примеры</h3>
+                        <p>Учитесь на практике с примерами кода и живыми демонстрациями</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3>Для начинающих</h3>
+                        <p>Никакого предыдущего опыта не требуется. Начните с нуля и развивайте реальные навыки</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Быстро и по делу</h3>
+                        <p>Короткие мини-курсы, которые обучают важным концепциям без перегрузки информацией</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Основы Веб-разработки. Изучайте веб-разработку шаг за шагом.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
